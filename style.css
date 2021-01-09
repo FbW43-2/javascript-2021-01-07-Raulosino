@@ -1,0 +1,28 @@
+body,html,main{
+    margin: 0px;
+}
+
+main{
+    display: flex;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    margin:auto;
+    width: 70%;
+    height: auto;
+    padding:1rem;
+}
+#main-content > div{
+    margin-top: 2%;
+}
+#main-content > div > p{
+    margin:0.3rem;
+}
+
+.form-content{
+    margin: 1rem;
+    flex-direction: column;
+}
